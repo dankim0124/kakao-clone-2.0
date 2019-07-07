@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>KAKAO CLONE | USER_CHATING</title>
+    <script src="https://kit.fontawesome.com/2ee5ff1c21.js"></script>
+  </head>
+  <body>
+    <div class="stauts-bar">
+      <div class="status-bar__column">
+        <span class="stauts-bar__clock">00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header-column">
+        <a href="friends.html" class="header__back-btn">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </a>
+        <h1 class="header__title">USER_CHATING</h1>
+      </div>
+      <div class="header-column">
+        <span class="header__icon ">
+          <i class="fas fa-search fa-2x"></i>
+        </span>
+        <span class="header__icon ">
+          <i class="fas fa-bars fa-2x"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="chat">
+      <ul class="chat__messages">
+        <h6 class="chat__timestamp">Monday,January 24,2019</h6>
+        <li class="incoming-messages message">
+          <img
+            src="images/dankim.jpg"
+            class="g-avatar message-avatar"
+            width="35px"
+            height="35"
+          />
+          <div class="message__content">
+            <span class="message__author"> OTHER USER</span>
+            <div class="message__bubble">
+              HI!
+            </div>
+            <span class="timestamp">00:00</span>
+          </div>
+        </li>
+        <li class="sending-messages message">
+          <span class="timestamp">00:00</span>
+          <div class="message__content">
+            <div class="message__bubble">
+              BYE!
+            </div>
+          </div>
+        </li>
+      </ul>
+      <section class="chat__write">
+        <div class="chat__write-column"><i class="far fa-plus-square"></i></div>
+        <div class="chat__write-column">
+          <input
+            class="chat__write-input"
+            type="text"
+            placeholder="Send Messages"
+          />
+        </div>
+        <div class="chat__write-column">
+          <span class="chat__write-icon">
+            <i class="far fa-smile-wink"></i>
+          </span>
+          <span class="chat__write-icon">
+            <i class="fas fa-microphone"></i>
+          </span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
