@@ -1,0 +1,23 @@
+.friends {
+}
+
+.friends__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.friends__header .friends_column {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.friend__avatar {
+  width: 50px;
+  border-radius: 35%;
+}
+
+.friend__content .friend__name {
+  display: block;
+}
